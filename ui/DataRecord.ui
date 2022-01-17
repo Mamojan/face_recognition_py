@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="title">
-    <string>人脸采集</string>
+    <string>face collection</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -44,7 +44,7 @@
      <enum>QFrame::Box</enum>
     </property>
     <property name="text">
-     <string>&lt;font color=red&gt;摄像头未开启&lt;/font&gt;</string>
+     <string>&lt;font color=red&gt;Camera is not turned on&lt;/font&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -66,7 +66,7 @@
         <bool>true</bool>
        </property>
        <property name="text">
-        <string>开始采集人脸数据</string>
+        <string>Start collecting face data</string>
        </property>
       </widget>
      </item>
@@ -75,7 +75,7 @@
        <item>
         <widget class="QLabel" name="faceRecordCountLabel">
          <property name="text">
-          <string>系统已采集帧数：</string>
+          <string>The number of frames collected by the system：</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
