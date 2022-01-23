@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="title">
-    <string>人脸采集</string>
+    <string>face collection</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -44,7 +44,7 @@
      <enum>QFrame::Box</enum>
     </property>
     <property name="text">
-     <string>&lt;font color=red&gt;摄像头未开启&lt;/font&gt;</string>
+     <string>&lt;font color=red&gt;Camera is not turned on&lt;/font&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -66,7 +66,7 @@
         <bool>true</bool>
        </property>
        <property name="text">
-        <string>开始采集人脸数据</string>
+        <string>Start collecting face data</string>
        </property>
       </widget>
      </item>
@@ -75,7 +75,7 @@
        <item>
         <widget class="QLabel" name="faceRecordCountLabel">
          <property name="text">
-          <string>系统已采集帧数：</string>
+          <string>The number of frames collected by the system：</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -97,7 +97,7 @@
         <bool>false</bool>
        </property>
        <property name="text">
-        <string>采集当前捕获帧</string>
+        <string>Capture the current capture frame</string>
        </property>
       </widget>
      </item>
@@ -118,14 +118,14 @@
        <item>
         <widget class="QCheckBox" name="useExternalCameraCheckBox">
          <property name="text">
-          <string>使用外接摄像头</string>
+          <string>Using an external camera</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="startWebcamButton">
          <property name="text">
-          <string>打开摄像头</string>
+          <string>Turn on the camera</string>
          </property>
         </widget>
        </item>
@@ -137,7 +137,7 @@
         <bool>false</bool>
        </property>
        <property name="text">
-        <string>开启人脸检测</string>
+        <string>Turn on face detection</string>
        </property>
       </widget>
      </item>
@@ -157,7 +157,7 @@
     </rect>
    </property>
    <property name="title">
-    <string>数据录入</string>
+    <string>Data Entry</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -172,7 +172,7 @@
      </rect>
     </property>
     <property name="title">
-     <string>基本信息</string>
+     <string>Basic Information</string>
     </property>
     <widget class="QGroupBox" name="infoConfirmGroupBox">
      <property name="geometry">
@@ -184,7 +184,7 @@
       </rect>
      </property>
      <property name="title">
-      <string>信息确认</string>
+      <string>Information confirmed</string>
      </property>
      <widget class="QWidget" name="layoutWidget_3">
       <property name="geometry">
@@ -204,7 +204,7 @@
             <enum>QFrame::NoFrame</enum>
            </property>
            <property name="text">
-            <string>学号：</string>
+            <string>student ID：</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -217,7 +217,7 @@
             <enum>QFrame::NoFrame</enum>
            </property>
            <property name="text">
-            <string>姓名：</string>
+            <string>Name：</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -230,7 +230,7 @@
             <enum>QFrame::NoFrame</enum>
            </property>
            <property name="text">
-            <string>汉语拼音：</string>
+            <string>Chinese Pinyin：</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -288,7 +288,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>同步到数据库</string>
+       <string>sync to database</string>
       </property>
       <property name="autoDefault">
        <bool>false</bool>
@@ -308,7 +308,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>增加用户/修改用户资料</string>
+      <string>Add User/Modify User Profile</string>
      </property>
      <property name="autoDefault">
       <bool>false</bool>
@@ -325,7 +325,7 @@
      </rect>
     </property>
     <property name="title">
-     <string>系统日志</string>
+     <string>System log</string>
     </property>
     <widget class="QTextEdit" name="logTextEdit">
      <property name="geometry">
@@ -348,7 +348,7 @@
      </rect>
     </property>
     <property name="title">
-     <string>数据库状态</string>
+     <string>database status</string>
     </property>
     <widget class="QWidget" name="layoutWidget_4">
      <property name="geometry">
@@ -363,7 +363,7 @@
       <item>
        <widget class="QLabel" name="dbUserCountLabel">
         <property name="text">
-         <string>数据库已存人脸样本数：</string>
+         <string>The number of face samples stored in the database：</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -389,7 +389,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>初始化数据库</string>
+      <string>Initialize the database</string>
      </property>
     </widget>
    </widget>
